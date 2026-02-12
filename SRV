@@ -1,6 +1,6 @@
 [
 {
-  "remarks": "SlipStreamClient",
+  "remarks": "SlipStreamClient Direct",
   "log": {
     "loglevel": "warning"
   },
@@ -192,7 +192,7 @@
   }
 },
 {
-  "remarks": "SlipStreamClient+VL",
+  "remarks": "SlipStreamClient + VL",
   "log": {
     "loglevel": "warning"
   },
@@ -425,7 +425,7 @@
   }
 },
 {
-  "remarks": "Stream Gate",
+  "remarks": "StreamGate Direct",
   "log": {
     "loglevel": "warning"
   },
@@ -610,7 +610,7 @@
   }
 },
 { 
-  "remarks": "Stream Gate+VL",
+  "remarks": "StreamGate + VL",
   "log": {
     "loglevel": "warning"
   },
