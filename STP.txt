@@ -1,0 +1,7 @@
+SLIPSTREAM://GH65rEfc:guiTfk2z@t3h.irgeeks.shop:53?dns=194.5.188.56#1000K
+SLIPSTREAM://GH65rEfc:guiTfk2z@t3h.irgeeks.shop:53?dns=91.223.116.142#1200K
+SLIPSTREAM://GH65rEfc:guiTfk2z@t3h.irgeeks.shop:53?dns=62.204.61.233#1300K
+SLIPSTREAM://GH65rEfc:guiTfk2z@t3h.irgeeks.shop:53?dns=45.149.77.7#1500K
+SLIPSTREAM://GH65rEfc:guiTfk2z@t3h.irgeeks.shop:53?dns=62.3.42.133#1700K
+SLIPSTREAM://GH65rEfc:guiTfk2z@t3h.irgeeks.shop:53?dns=37.191.95.82#500K
+SLIPSTREAM://GH65rEfc:guiTfk2z@t3h.irgeeks.shop:53?dns=109.230.223.170#100K
