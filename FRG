@@ -32,7 +32,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.cloudflare-ech.com",
+            "address": "cloudflare-ech.com",
             "port": 443,
             "users": [
               {
@@ -81,8 +81,8 @@
                 "value": null,
                 "password": null,
                 "packets": null,
-                "length": "1",
-                "delay": "0",
+                "length": "10-20",
+                "delay": "10-16",
                 "reset": null,
                 "noise": null
               }
