@@ -1,1 +1,306 @@
- 
+[
+{
+   "remarks": "de1",
+  "log": {
+    "loglevel": "warning"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "mixed",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "routeOnly": false
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cloudflare-ech.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "7517caee-38e1-4697-8285-86ca88ddcccd",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "mlkem768x25519plus.native.0rtt.b2NieOIeUgAhvUDCDWI4YIVi9hZ12NZHfrI1YOwjpHBQyUREa5RwXLAE1SJlD3wUBRuLmRAfdDQ8vvqjo7Q5BZNqbTpRARe8cfGWn5qYsLt9xsMTrHmBwLkENwVESlAHcWxNKhomX_cpXsEWFaGtlOC_IsxdsGMR96TMuJcvW8HILSiYsYEJI4jG3UVvRjm0_hjDUKGtCPqYmAxZGOp-e7QH4LAzPpKUqJaEHHKekfKNaftcoLW2ghE0X-p0agl3IgHEhLN_1JcuyUE7MwqtqXyeodCjN4rAgcRUF9WZk3o83FM2SYYeISNSuMQ-2cOV7byM57pSeQkxOZzEEquMrEx2TzopCqGR2zAIp9JdJnmafSofX0CzKdU5uaWQUqmvEby65FWcrgVv0ARFxyOK_dMMQ1VeOOJ57XouI0eAEtyjeEaTv4dZSBU3t5eJ7bpXpwNcmYTA5nBwvti93thOFmtxyJJD1UKkipiyM8pm13ghF_OZ4mCh7-UZcrJcPAjDKmUFZcJTKRtbWmUUozYmbxnO25oknXEDK-iTj2uzwHBa30x6zaykUyexkkZBlhbMAFFnDnNT-EUqkIkLuhF6GOCVAua7WrDGNnWIu-gWxZA96ui5flaITgFuqnWni3AUWkwP3SUxUnqLH0hXkvu57wg8nxMDR6Mo1vyFH9MuiCQcorpH1gSG1HSkdKBXNOC65xtuiwCa4KWZtUpuaVFxlESf6_akRKeQorozAdgHeec2hYtu2rmBzzjEygmEyGxnbJS6gDMEY9Qep-uKZWkoLtafArNNUZy51uAtwmMiLMIK6dt_HqNQr_mGkCmFRzUye2gZacNLEiOrKJsxqWAMphNPt3KUAHNKbmvMrcG9E6iP50t_poAGKOGcdQqkqLcE7AQp_Dg_qgOq27Kon3slN6gz_eVKkaJk30QxLGRLEfmXtvlH1tlGKclLVFGW6pdhfbnElQGUrzVyCuu_HJC5GhYlutA_xOIr04ZaS9UQfCNzwAAH6yAcTOgOw3GFGSlbT5SYoZsg-nWnw2FZZQejBWRQuNAE19S9jKGQf7jD8lZ-4gysSSKSHBZ4Z2liXgIlZ3aBbms5v_c3YuN7rbNC49hlGqGmDtVCk2mqj8FNnckPwPPJfURBgnVtchQeecxYSaF8OsmJ-4m2VAcBNdUaYwy1RkJO7wByvduJryeLo5R1uNvHvsyZrxGy17sym3ieB_V7nvl7WeGC8MofLsFjIIGl_vZ1IdK5cXdESdsDPIZqnmxRWnNZMyFcjBUT0SXMYfyc0qq9MiOXcMJzcdBEqiZV98Y4Q2QyedmLWEF_9pxL0RqIKnAzqKR028JowGanimwdjDMAIHeMdntoz_pUYUatjYcHAHsfJlCaDxlm9-DF1Aw2w0tPaDPJ7DMBEEYD6LhFkNm8kuQKEaQXAHcuCaJLF4muFvZ3UiEaRwViMpR1FtmYTsNYpNpMMzCozkA6jsGC-9SPkHcLvzY5d8AQ68mhhAwUa5gZyydx1Rd-augoWheMxEApqiGACIkTbjSaNkZsTS2GaKTD-lM84YyRX21rjCNv9L-3-gcR5Mk2W8A",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "engineering-agreement-past-westminster.trycloudflare.com",
+          "fingerprint": "chrome"
+        },
+        "wsSettings": {
+          "path": "7517caee-38e1-4697-8285-86ca88ddcccd-vw",
+          "host": "engineering-agreement-past-westminster.trycloudflare.com"
+        },
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "header": null,
+                "value": null,
+                "password": null,
+                "packets": "tlshello",
+                "length": "1",
+                "delay": "0",
+                "reset": null,
+                "noise": null
+              }
+            }
+          ],
+          "udp": [
+            {
+              "type": "noise",
+              "settings": {
+                "header": null,
+                "value": null,
+                "password": null,
+                "packets": null,
+                "length": "10-20",
+                "delay": "10-16",
+                "reset": null,
+                "noise": null
+              }
+            }
+          ]
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "type": "field",
+        "port": "443",
+        "network": "udp",
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "ip": [
+          "geoip:private"
+        ]
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+          "geosite:private"
+        ]
+      },
+      {
+        "type": "field",
+        "port": "0-65535",
+        "outboundTag": "proxy"
+      },
+      {
+        "type": "field",
+        "inboundTag": [
+          "direct-dns-1",
+          "direct-dns-2"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "inboundTag": [
+          "dns-module"
+        ],
+        "outboundTag": "proxy"
+      }
+    ]
+  }
+},
+{
+   "remarks": "de2",
+  "log": {
+    "loglevel": "warning"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "mixed",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "routeOnly": false
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "www.speedtest.net",
+            "port": 443,
+            "users": [
+              {
+                "id": "7517caee-38e1-4697-8285-86ca88ddcccd",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "mlkem768x25519plus.native.0rtt.b2NieOIeUgAhvUDCDWI4YIVi9hZ12NZHfrI1YOwjpHBQyUREa5RwXLAE1SJlD3wUBRuLmRAfdDQ8vvqjo7Q5BZNqbTpRARe8cfGWn5qYsLt9xsMTrHmBwLkENwVESlAHcWxNKhomX_cpXsEWFaGtlOC_IsxdsGMR96TMuJcvW8HILSiYsYEJI4jG3UVvRjm0_hjDUKGtCPqYmAxZGOp-e7QH4LAzPpKUqJaEHHKekfKNaftcoLW2ghE0X-p0agl3IgHEhLN_1JcuyUE7MwqtqXyeodCjN4rAgcRUF9WZk3o83FM2SYYeISNSuMQ-2cOV7byM57pSeQkxOZzEEquMrEx2TzopCqGR2zAIp9JdJnmafSofX0CzKdU5uaWQUqmvEby65FWcrgVv0ARFxyOK_dMMQ1VeOOJ57XouI0eAEtyjeEaTv4dZSBU3t5eJ7bpXpwNcmYTA5nBwvti93thOFmtxyJJD1UKkipiyM8pm13ghF_OZ4mCh7-UZcrJcPAjDKmUFZcJTKRtbWmUUozYmbxnO25oknXEDK-iTj2uzwHBa30x6zaykUyexkkZBlhbMAFFnDnNT-EUqkIkLuhF6GOCVAua7WrDGNnWIu-gWxZA96ui5flaITgFuqnWni3AUWkwP3SUxUnqLH0hXkvu57wg8nxMDR6Mo1vyFH9MuiCQcorpH1gSG1HSkdKBXNOC65xtuiwCa4KWZtUpuaVFxlESf6_akRKeQorozAdgHeec2hYtu2rmBzzjEygmEyGxnbJS6gDMEY9Qep-uKZWkoLtafArNNUZy51uAtwmMiLMIK6dt_HqNQr_mGkCmFRzUye2gZacNLEiOrKJsxqWAMphNPt3KUAHNKbmvMrcG9E6iP50t_poAGKOGcdQqkqLcE7AQp_Dg_qgOq27Kon3slN6gz_eVKkaJk30QxLGRLEfmXtvlH1tlGKclLVFGW6pdhfbnElQGUrzVyCuu_HJC5GhYlutA_xOIr04ZaS9UQfCNzwAAH6yAcTOgOw3GFGSlbT5SYoZsg-nWnw2FZZQejBWRQuNAE19S9jKGQf7jD8lZ-4gysSSKSHBZ4Z2liXgIlZ3aBbms5v_c3YuN7rbNC49hlGqGmDtVCk2mqj8FNnckPwPPJfURBgnVtchQeecxYSaF8OsmJ-4m2VAcBNdUaYwy1RkJO7wByvduJryeLo5R1uNvHvsyZrxGy17sym3ieB_V7nvl7WeGC8MofLsFjIIGl_vZ1IdK5cXdESdsDPIZqnmxRWnNZMyFcjBUT0SXMYfyc0qq9MiOXcMJzcdBEqiZV98Y4Q2QyedmLWEF_9pxL0RqIKnAzqKR028JowGanimwdjDMAIHeMdntoz_pUYUatjYcHAHsfJlCaDxlm9-DF1Aw2w0tPaDPJ7DMBEEYD6LhFkNm8kuQKEaQXAHcuCaJLF4muFvZ3UiEaRwViMpR1FtmYTsNYpNpMMzCozkA6jsGC-9SPkHcLvzY5d8AQ68mhhAwUa5gZyydx1Rd-augoWheMxEApqiGACIkTbjSaNkZsTS2GaKTD-lM84YyRX21rjCNv9L-3-gcR5Mk2W8A",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "engineering-agreement-past-westminster.trycloudflare.com",
+          "fingerprint": "chrome"
+        },
+        "wsSettings": {
+          "path": "7517caee-38e1-4697-8285-86ca88ddcccd-vw",
+          "host": "engineering-agreement-past-westminster.trycloudflare.com"
+        },
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "header": null,
+                "value": null,
+                "password": null,
+                "packets": "tlshello",
+                "length": "1",
+                "delay": "0",
+                "reset": null,
+                "noise": null
+              }
+            }
+          ],
+          "udp": [
+            {
+              "type": "noise",
+              "settings": {
+                "header": null,
+                "value": null,
+                "password": null,
+                "packets": null,
+                "length": "10-20",
+                "delay": "10-16",
+                "reset": null,
+                "noise": null
+              }
+            }
+          ]
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "type": "field",
+        "port": "443",
+        "network": "udp",
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "ip": [
+          "geoip:private"
+        ]
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+          "geosite:private"
+        ]
+      },
+      {
+        "type": "field",
+        "port": "0-65535",
+        "outboundTag": "proxy"
+      },
+      {
+        "type": "field",
+        "inboundTag": [
+          "direct-dns-1",
+          "direct-dns-2"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "inboundTag": [
+          "dns-module"
+        ],
+        "outboundTag": "proxy"
+      }
+    ]
+  }
+}
+]
