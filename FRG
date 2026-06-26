@@ -32,7 +32,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cloudflare-ech.com",
+            "address": "news24.com",
             "port": 443,
             "users": [
               {
