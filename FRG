@@ -179,12 +179,12 @@
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "serverName": "confidential-demonstrate-treat-cognitive.trycloudflare.com",
+          "serverName": "anderson-alumni-accuracy-euros.trycloudflare.com",
           "fingerprint": "chrome"
         },
         "wsSettings": {
           "path": "/vless-argo?ed=2560",
-          "host": "confidential-demonstrate-treat-cognitive.trycloudflare.com"
+          "host": "anderson-alumni-accuracy-euros.trycloudflare.com"
         },
         "finalmask": {
           "tcp": [
