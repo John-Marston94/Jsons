@@ -179,12 +179,12 @@
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "serverName": "anderson-alumni-accuracy-euros.trycloudflare.com",
+          "serverName": "lat-dialogue-acres-usd.trycloudflare.com",
           "fingerprint": "chrome"
         },
         "wsSettings": {
           "path": "/vless-argo?ed=2560",
-          "host": "anderson-alumni-accuracy-euros.trycloudflare.com"
+          "host": "lat-dialogue-acres-usd.trycloudflare.com"
         },
         "finalmask": {
           "tcp": [
