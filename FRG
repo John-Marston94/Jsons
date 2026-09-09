@@ -85,32 +85,7 @@
           "path": "/vless-argo?ed=2560",
           "host": "bride-remove-norm-helped.trycloudflare.com"
         },
-        "finalmask": {
-          "tcp": [
-            {
-              "settings": {
-                "delay": "0",
-                "length": "1",
-                "maxSplit": "5",
-                "packets": "1-2"
-              },
-              "type": "fragment"
-            }
-          ],
-          "udp": [
-            {
-              "settings": {
-                "noise": [
-                  {
-                    "delay": "10-16",
-                    "rand": "10-20"
-                  }
-                ]
-              },
-              "type": "noise"
-            }
-          ]
-        }
+        "finalmask": {"tcp": [{"type": "fragment", "settings": {"packets": "tlshello", "lengths": ["0", "1"], "delays": ["0"], "maxSplit": "5"}},{"type": "fragment", "settings": {"packets": "1-2", "lengths": ["0", "1"], "delays": ["0"], "maxSplit": "5"}}]}
       },
       "mux": {
         "enabled": false,
