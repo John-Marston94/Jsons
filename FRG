@@ -179,19 +179,19 @@
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "serverName": "lat-dialogue-acres-usd.trycloudflare.com",
+          "serverName": "bride-remove-norm-helped.trycloudflare.com",
           "fingerprint": "chrome"
         },
         "wsSettings": {
           "path": "/vless-argo?ed=2560",
-          "host": "lat-dialogue-acres-usd.trycloudflare.com"
+          "host": "bride-remove-norm-helped.trycloudflare.com"
         },
         "finalmask": {
           "tcp": [
             {
               "settings": {
-                "delay": "0",
-                "length": "1",
+                "delay": "0-10",
+                "length": "1-100",
                 "maxSplit": "5",
                 "packets": "tlshello"
               },
