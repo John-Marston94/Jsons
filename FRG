@@ -1,5 +1,5 @@
 {
-  "remarks": "RegionFree",
+  "remarks": "Warp",
   "log": {
     "loglevel": "warning"
   },
@@ -27,22 +27,16 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "socks",
       "settings": {
-        "vnext": [
-          {
-            "address": "213.176.117.68",
-            "port": 2052,
-            "users": [
-              {
-                "id": "68405b39-5e8e-40dc-958b-a5fd78a63126",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
+        "address": "127.0.0.1",
+        "port": 40000,
+        "level": 1,
+        "id": "a3482e88-686a-4a58-8126-99c9df64b7bf",
+        "security": "auto",
+        "method": "chacha20",
+        "ota": false,
+        "password": "123456"
       },
       "streamSettings": {
         "network": "raw",
@@ -59,33 +53,61 @@
       "tag": "chain-proxy-1-frg",
       "protocol": "vless",
       "settings": {
-        "vnext": [
-          {
-            "address": "www.speedtest.net",
-            "port": 8443,
-            "users": [
-              {
-                "id": "5b093481-1eef-4d1c-b06a-2889c4cd8b9b",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
+        "address": "www.speedtest.net",
+        "port": 8443,
+        "level": 1,
+        "email": "t@t.tt",
+        "id": "ff386ea0-47ff-47e0-9b93-7910fe41d6df",
+        "security": "auto",
+        "encryption": "mlkem768x25519plus.native.0rtt.Y9w3q7EMDchaRMJXuNQpiIaZyqkBm1tIq6Zrjec87ORJjYooM2Ml1OxHyRA1M6BE4nep6acOTMbE_HTHfIcoZcnNwXHKS_mU-tjPGNuGOFMLcmS2xgdn3UoQFWu2s8NladivKnyWNWMp6MyCPxpcd5q3zcZ9TFyny5BGSJGhFAK1Ink51QpAASbLPGtjpTqO5SiwgaJo7hlH27gBkXp0VQmYeGJ1LlSHqJicpPB2c3dDIEN7dTm5GXytQTpzITwIISah6tAEuyeSAvI5Rna9zCK-ImifCQFbTopAqVMaeEk-pMFuwzgaUmd0NYE05zcTKQqsiUeGziQ7WXWZeXMTX3eGArGBSGdjYIKf0ONCCva1uMBr5Wl8kcYMXiJxX8BtUGRetZaa2rFE8lwaxYZSZMJBpPmb7wjN1DIEuIQsL7w02xuU0pVO0FFXl1SQClpGJvYD2YpMs3C_BuMxrwQalcSW2SJk9GQ1SwEamICVHeljVzIEamYd6LSZnXGElzDJGmyw0jo8hZjCsUWRzPu1pbWb_KMyp_wKFoMmnmqV_QYqi0QJXJfHPJC8VhGfBawv5UVjRGMCuEa_W_MCi_nBSiqXINQ7W7SbHgzMi6RKU9BFFMCyfGytuGGjbTGgmaalugg9Y2rOklMFe7RQWaeNd4ivn7vDh1swPwAc-HV9zyWalFYT5zURrMK6WRcEr9taqcN6t6wRqYk376ZLjwKUbniLXfOwAEqu9LikpbcSciB7PGM8iMC0vHkgo2y7IDZL3dVWekyk7BMFVsCPqrRgScpq_qIMuHav93O7GkqIh0MziKcsTlJGbtKvGNQbNKLFLjJUPBZgfsioUdkRF-kbW1eorWFAyFxu6OVmVyok5Dq0ciA1hILPBNFNFyqrcgJ-UltoqhXFOYgXPvTAvCdoPSeF0ckORCSTSxspBzY4eFKWrYEXuuLGxtqIj7HPSWgZkwyxlxhPJ-yG56AfVCBS8IiYtTku24JT4WwOKCyJVPGbJAA1N9BBDPYMuTm730QwkfuYcjhuN8MocOqfWrNWo9O1G4KoJ_kMnXtE6toByrovulx8leIu6USCXIOXdJSCJZkAMBEnp-eZVyWIp1QR66thNcBxDgNkYVtDrow-e2oku2k_gCkBSxwNFZcVdJkXBRc0s6OK_fU9hZRuFsFVoaEpk7lf2qAjInwjGtq_U5tWNAeGd4tb7dJeRgiJ01u7sodpp-MDFBwWftWCtwl2L3G1kQBFbBcl6wnKH_pQZucbvEg9gsbLriA_OdhWWNEZAtoRnZuTR9J7BAUE3RhKEoYbj8QpdKgm7dILEUxyAlubROEpY6TCTpm7oPPFbjcQFtu_wDitkIIP9RE-7VsIDQlGwwkWOEWFFzLOBAa8hCefW2RsSHac0RAdDnB--6QoCDoaERIQknobEmaYF4EkwEUHwEucKwECVJcRhHZD7gltmacgqudIc6wS24Qgj3iQjqtn4rG2eXSTkNhFYAqtg0tqLmlBO6kuCOaWWHEXDdcQJza0ScU9eRljSke8yfscmqHyPyScXyI3b4deMBeEnAorTwIVfhK6D9PJT_nzfz8",
+        "flow": "xtls-rprx-vision",
+        "method": "chacha20",
+        "ota": false,
+        "password": "123456"
       },
       "streamSettings": {
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "serverName": "bride-remove-norm-helped.trycloudflare.com",
+          "serverName": "regulations-apart-thehun-neck.trycloudflare.com",
           "fingerprint": "chrome"
         },
         "wsSettings": {
-          "path": "/vless-argo?ed=2560",
-          "host": "bride-remove-norm-helped.trycloudflare.com"
+          "path": "ff386ea0-47ff-47e0-9b93-7910fe41d6df-vw",
+          "host": "regulations-apart-thehun-neck.trycloudflare.com"
         },
-        "finalmask": {"tcp": [{"type": "fragment", "settings": {"packets": "tlshello", "lengths": ["0", "1"], "delays": ["0"], "maxSplit": "5"}},{"type": "fragment", "settings": {"packets": "1-2", "lengths": ["0", "1"], "delays": ["0"], "maxSplit": "5"}}]}
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "tlshello",
+                "lengths": [
+                  "0",
+                  "1"
+                ],
+                "delays": [
+                  "0"
+                ],
+                "maxSplit": "5"
+              }
+            },
+            {
+              "type": "fragment",
+              "settings": {
+                "packets": "1-2",
+                "lengths": [
+                  "0",
+                  "1"
+                ],
+                "delays": [
+                  "0"
+                ],
+                "maxSplit": "5"
+              }
+            }
+          ]
+        }
       },
       "mux": {
         "enabled": false,
