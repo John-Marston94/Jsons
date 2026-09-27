@@ -31,13 +31,7 @@
       "protocol": "socks",
       "settings": {
         "address": "127.0.0.1",
-        "port": 1819,
-        "level": 1,
-        "id": "a3482e88-686a-4a58-8126-99c9df64b7bf",
-        "security": "auto",
-        "method": "chacha20",
-        "ota": false,
-        "password": "123456"
+        "port": 1819
       },
       "streamSettings": {
         "network": "raw",
@@ -55,27 +49,22 @@
       "protocol": "vless",
       "settings": {
         "address": "www.speedtest.net",
-        "port": 8443,
-        "level": 1,
+        "port": 443,
         "email": "t@t.tt",
-        "id": "ff386ea0-47ff-47e0-9b93-7910fe41d6df",
-        "security": "auto",
-        "encryption": "mlkem768x25519plus.native.0rtt.Y9w3q7EMDchaRMJXuNQpiIaZyqkBm1tIq6Zrjec87ORJjYooM2Ml1OxHyRA1M6BE4nep6acOTMbE_HTHfIcoZcnNwXHKS_mU-tjPGNuGOFMLcmS2xgdn3UoQFWu2s8NladivKnyWNWMp6MyCPxpcd5q3zcZ9TFyny5BGSJGhFAK1Ink51QpAASbLPGtjpTqO5SiwgaJo7hlH27gBkXp0VQmYeGJ1LlSHqJicpPB2c3dDIEN7dTm5GXytQTpzITwIISah6tAEuyeSAvI5Rna9zCK-ImifCQFbTopAqVMaeEk-pMFuwzgaUmd0NYE05zcTKQqsiUeGziQ7WXWZeXMTX3eGArGBSGdjYIKf0ONCCva1uMBr5Wl8kcYMXiJxX8BtUGRetZaa2rFE8lwaxYZSZMJBpPmb7wjN1DIEuIQsL7w02xuU0pVO0FFXl1SQClpGJvYD2YpMs3C_BuMxrwQalcSW2SJk9GQ1SwEamICVHeljVzIEamYd6LSZnXGElzDJGmyw0jo8hZjCsUWRzPu1pbWb_KMyp_wKFoMmnmqV_QYqi0QJXJfHPJC8VhGfBawv5UVjRGMCuEa_W_MCi_nBSiqXINQ7W7SbHgzMi6RKU9BFFMCyfGytuGGjbTGgmaalugg9Y2rOklMFe7RQWaeNd4ivn7vDh1swPwAc-HV9zyWalFYT5zURrMK6WRcEr9taqcN6t6wRqYk376ZLjwKUbniLXfOwAEqu9LikpbcSciB7PGM8iMC0vHkgo2y7IDZL3dVWekyk7BMFVsCPqrRgScpq_qIMuHav93O7GkqIh0MziKcsTlJGbtKvGNQbNKLFLjJUPBZgfsioUdkRF-kbW1eorWFAyFxu6OVmVyok5Dq0ciA1hILPBNFNFyqrcgJ-UltoqhXFOYgXPvTAvCdoPSeF0ckORCSTSxspBzY4eFKWrYEXuuLGxtqIj7HPSWgZkwyxlxhPJ-yG56AfVCBS8IiYtTku24JT4WwOKCyJVPGbJAA1N9BBDPYMuTm730QwkfuYcjhuN8MocOqfWrNWo9O1G4KoJ_kMnXtE6toByrovulx8leIu6USCXIOXdJSCJZkAMBEnp-eZVyWIp1QR66thNcBxDgNkYVtDrow-e2oku2k_gCkBSxwNFZcVdJkXBRc0s6OK_fU9hZRuFsFVoaEpk7lf2qAjInwjGtq_U5tWNAeGd4tb7dJeRgiJ01u7sodpp-MDFBwWftWCtwl2L3G1kQBFbBcl6wnKH_pQZucbvEg9gsbLriA_OdhWWNEZAtoRnZuTR9J7BAUE3RhKEoYbj8QpdKgm7dILEUxyAlubROEpY6TCTpm7oPPFbjcQFtu_wDitkIIP9RE-7VsIDQlGwwkWOEWFFzLOBAa8hCefW2RsSHac0RAdDnB--6QoCDoaERIQknobEmaYF4EkwEUHwEucKwECVJcRhHZD7gltmacgqudIc6wS24Qgj3iQjqtn4rG2eXSTkNhFYAqtg0tqLmlBO6kuCOaWWHEXDdcQJza0ScU9eRljSke8yfscmqHyPyScXyI3b4deMBeEnAorTwIVfhK6D9PJT_nzfz8",
-        "flow": "xtls-rprx-vision",
-        "method": "chacha20",
-        "ota": false,
-        "password": "123456"
+        "id": "39aefc86-4eeb-4abd-a54e-d1488b0d1549",
+        "encryption": "mlkem768x25519plus.native.0rtt.MLjPuurNDoa8HqYMX_nPO7pLb-QedRCtG0YhqDN8NWxT5ABi-OmUaOO3tElEnnInaWEczMoRcqIvIJxpONelkjKtG_jHi5qTC4WynMY8GdxieNJeOVIhgdsSPNSrSSlQWPrFvCY8TseNQVSCXQqbbWDPQZwXClgUk9EIWeJcuKoHxNozAPs0CMqW6ncUfLMQCKdK3MMBbjatMdgZEChcYZJTdYzD9hhWtNaw9JJiPaMQy-qlSPeuKzhNJiKtJdQW6TRT-oe8OcCbl_oHTqwQdXMT6pHPicmeOkQ45LGZ6sYqx1SbEWFRMyO6UDK-AQbLLZQ5RkpDRSevQgTHVccFrCnH0WZeGZCAl3uCT7O9aidv0AGGAphR1Qe4hflyiTiNOPRiK7vCKQwjCeVuPsO9TRI2y2TFUyfNENctGzI05SlGZtJP9csM4RUxMOzHT4F3fvR7EkM8iCXGeTe6ngURhMG8UGWRcBq1ZyYQSVmtQlUSVpvEGCnLDVmO7AbFycNAjKYnhdqdt0Vox4CYj7I23QO_QBvARYVsTztq6-t5KCcqteWZRoylMhACBmRDeSVAQdEXGhUKX-dXI0qkblYuVEqUiWlxP7o3FSg0NwaCNQehQMCBhlUFMkJqDGokePJWVJBLy6OVCNWUbkx9RTUD7SuoV4cuksCAEeUorfyyHWEUuPhvpMR5diBgD7wENTuV3DwoAKJFsQmzE_DG12ZFGFqKfNKgl7MEzhSvxOehdps9yvxNNOlC6-NI3aSKwCx4yoFyIiG-lHYtoTdlgge1lKiKupMKwaF7UASnE4ecqzwRGogEbgU8R9Gg2EEC1zlWZ1vH3NVtF3JTCfM__8WpqXwOQIWz_AJzfoN-8gsO_ZK6mOVSIuEVTvvJ7TwDLzEqAPKGmlwW5vB-lBJy4jcTrjlLg3OHeLora0VLBjFG1XKit1JcAJFoNnkR3sIUlticOrG6-oqJHQhJUnNPQbOhUZWXoZoig_IKp6ix1gQcy4aYsxku-mgyBQc5U2rIqVbNOwGngReiwnx6N3MnmPfN9VDFYXoGxGWEPlGOx8MiSbbBe-mibIyP5stjIqxw2YZJ0ThHTAO_Aycr2iNTLnW6JsUQ0wKou-iL95dsIMCt5fNCwiae7DHO8GPI1COGgFtjkPdf2muc-8JwGkV05adrn2x6cmK_eNunPLcaGvapGehlgRcC7zle4VsMTmAXM9BKcFEjekQxA0JBxunDt1fPtpOJOBSPWzAwSwF7DVCrJnyL6dfMzLk70zV5zzhHnbwlUdJ4_xa_4DQ5h0UWLqxCtqfFA3E9QdJEp3TD8BVcz-fKK0ye8iWOu5yE3lmKnaoMzHI3ZoN9_-nDjyGZIQKz2qcHJWmYmEjCC3MBwJOwWUoph_yHTodqsZBHKbVmzjUT5RK1f8ZElMzLPtAc71ks36YQB9mkUptxYeLCiAdPpMKPuRNxfUu2wAMWyQE1jKxljoFnz-Q-xyy1YfS-cCqhiOFVP0JT0FMZHrJqJvNt7UULXLV4kURcuYcGKTWTcoRR2wSZllHdB_QB0k7u_C9hsUmYOZHu0RbmstKQSHKEN1Q",
+        "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "serverName": "regulations-apart-thehun-neck.trycloudflare.com",
+          "serverName": "detect-gadgets-cables-engineering.trycloudflare.com",
           "fingerprint": "chrome"
         },
         "wsSettings": {
-          "path": "ff386ea0-47ff-47e0-9b93-7910fe41d6df-vw",
-          "host": "regulations-apart-thehun-neck.trycloudflare.com"
+          "path": "39aefc86-4eeb-4abd-a54e-d1488b0d1549-vw",
+          "host": "detect-gadgets-cables-engineering.trycloudflare.com"
         },
         "finalmask": {
           "tcp": [
@@ -169,8 +158,7 @@
       }
     ]
   }
-}
-,
+},
 {
   "remarks": "Warp",
   "log": {
@@ -203,13 +191,7 @@
       "protocol": "socks",
       "settings": {
         "address": "127.0.0.1",
-        "port": 40000,
-        "level": 1,
-        "id": "a3482e88-686a-4a58-8126-99c9df64b7bf",
-        "security": "auto",
-        "method": "chacha20",
-        "ota": false,
-        "password": "123456"
+        "port": 40000
       },
       "streamSettings": {
         "network": "raw",
@@ -227,27 +209,22 @@
       "protocol": "vless",
       "settings": {
         "address": "www.speedtest.net",
-        "port": 8443,
-        "level": 1,
+        "port": 443,
         "email": "t@t.tt",
-        "id": "ff386ea0-47ff-47e0-9b93-7910fe41d6df",
-        "security": "auto",
-        "encryption": "mlkem768x25519plus.native.0rtt.Y9w3q7EMDchaRMJXuNQpiIaZyqkBm1tIq6Zrjec87ORJjYooM2Ml1OxHyRA1M6BE4nep6acOTMbE_HTHfIcoZcnNwXHKS_mU-tjPGNuGOFMLcmS2xgdn3UoQFWu2s8NladivKnyWNWMp6MyCPxpcd5q3zcZ9TFyny5BGSJGhFAK1Ink51QpAASbLPGtjpTqO5SiwgaJo7hlH27gBkXp0VQmYeGJ1LlSHqJicpPB2c3dDIEN7dTm5GXytQTpzITwIISah6tAEuyeSAvI5Rna9zCK-ImifCQFbTopAqVMaeEk-pMFuwzgaUmd0NYE05zcTKQqsiUeGziQ7WXWZeXMTX3eGArGBSGdjYIKf0ONCCva1uMBr5Wl8kcYMXiJxX8BtUGRetZaa2rFE8lwaxYZSZMJBpPmb7wjN1DIEuIQsL7w02xuU0pVO0FFXl1SQClpGJvYD2YpMs3C_BuMxrwQalcSW2SJk9GQ1SwEamICVHeljVzIEamYd6LSZnXGElzDJGmyw0jo8hZjCsUWRzPu1pbWb_KMyp_wKFoMmnmqV_QYqi0QJXJfHPJC8VhGfBawv5UVjRGMCuEa_W_MCi_nBSiqXINQ7W7SbHgzMi6RKU9BFFMCyfGytuGGjbTGgmaalugg9Y2rOklMFe7RQWaeNd4ivn7vDh1swPwAc-HV9zyWalFYT5zURrMK6WRcEr9taqcN6t6wRqYk376ZLjwKUbniLXfOwAEqu9LikpbcSciB7PGM8iMC0vHkgo2y7IDZL3dVWekyk7BMFVsCPqrRgScpq_qIMuHav93O7GkqIh0MziKcsTlJGbtKvGNQbNKLFLjJUPBZgfsioUdkRF-kbW1eorWFAyFxu6OVmVyok5Dq0ciA1hILPBNFNFyqrcgJ-UltoqhXFOYgXPvTAvCdoPSeF0ckORCSTSxspBzY4eFKWrYEXuuLGxtqIj7HPSWgZkwyxlxhPJ-yG56AfVCBS8IiYtTku24JT4WwOKCyJVPGbJAA1N9BBDPYMuTm730QwkfuYcjhuN8MocOqfWrNWo9O1G4KoJ_kMnXtE6toByrovulx8leIu6USCXIOXdJSCJZkAMBEnp-eZVyWIp1QR66thNcBxDgNkYVtDrow-e2oku2k_gCkBSxwNFZcVdJkXBRc0s6OK_fU9hZRuFsFVoaEpk7lf2qAjInwjGtq_U5tWNAeGd4tb7dJeRgiJ01u7sodpp-MDFBwWftWCtwl2L3G1kQBFbBcl6wnKH_pQZucbvEg9gsbLriA_OdhWWNEZAtoRnZuTR9J7BAUE3RhKEoYbj8QpdKgm7dILEUxyAlubROEpY6TCTpm7oPPFbjcQFtu_wDitkIIP9RE-7VsIDQlGwwkWOEWFFzLOBAa8hCefW2RsSHac0RAdDnB--6QoCDoaERIQknobEmaYF4EkwEUHwEucKwECVJcRhHZD7gltmacgqudIc6wS24Qgj3iQjqtn4rG2eXSTkNhFYAqtg0tqLmlBO6kuCOaWWHEXDdcQJza0ScU9eRljSke8yfscmqHyPyScXyI3b4deMBeEnAorTwIVfhK6D9PJT_nzfz8",
-        "flow": "xtls-rprx-vision",
-        "method": "chacha20",
-        "ota": false,
-        "password": "123456"
+        "id": "39aefc86-4eeb-4abd-a54e-d1488b0d1549",
+        "encryption": "mlkem768x25519plus.native.0rtt.MLjPuurNDoa8HqYMX_nPO7pLb-QedRCtG0YhqDN8NWxT5ABi-OmUaOO3tElEnnInaWEczMoRcqIvIJxpONelkjKtG_jHi5qTC4WynMY8GdxieNJeOVIhgdsSPNSrSSlQWPrFvCY8TseNQVSCXQqbbWDPQZwXClgUk9EIWeJcuKoHxNozAPs0CMqW6ncUfLMQCKdK3MMBbjatMdgZEChcYZJTdYzD9hhWtNaw9JJiPaMQy-qlSPeuKzhNJiKtJdQW6TRT-oe8OcCbl_oHTqwQdXMT6pHPicmeOkQ45LGZ6sYqx1SbEWFRMyO6UDK-AQbLLZQ5RkpDRSevQgTHVccFrCnH0WZeGZCAl3uCT7O9aidv0AGGAphR1Qe4hflyiTiNOPRiK7vCKQwjCeVuPsO9TRI2y2TFUyfNENctGzI05SlGZtJP9csM4RUxMOzHT4F3fvR7EkM8iCXGeTe6ngURhMG8UGWRcBq1ZyYQSVmtQlUSVpvEGCnLDVmO7AbFycNAjKYnhdqdt0Vox4CYj7I23QO_QBvARYVsTztq6-t5KCcqteWZRoylMhACBmRDeSVAQdEXGhUKX-dXI0qkblYuVEqUiWlxP7o3FSg0NwaCNQehQMCBhlUFMkJqDGokePJWVJBLy6OVCNWUbkx9RTUD7SuoV4cuksCAEeUorfyyHWEUuPhvpMR5diBgD7wENTuV3DwoAKJFsQmzE_DG12ZFGFqKfNKgl7MEzhSvxOehdps9yvxNNOlC6-NI3aSKwCx4yoFyIiG-lHYtoTdlgge1lKiKupMKwaF7UASnE4ecqzwRGogEbgU8R9Gg2EEC1zlWZ1vH3NVtF3JTCfM__8WpqXwOQIWz_AJzfoN-8gsO_ZK6mOVSIuEVTvvJ7TwDLzEqAPKGmlwW5vB-lBJy4jcTrjlLg3OHeLora0VLBjFG1XKit1JcAJFoNnkR3sIUlticOrG6-oqJHQhJUnNPQbOhUZWXoZoig_IKp6ix1gQcy4aYsxku-mgyBQc5U2rIqVbNOwGngReiwnx6N3MnmPfN9VDFYXoGxGWEPlGOx8MiSbbBe-mibIyP5stjIqxw2YZJ0ThHTAO_Aycr2iNTLnW6JsUQ0wKou-iL95dsIMCt5fNCwiae7DHO8GPI1COGgFtjkPdf2muc-8JwGkV05adrn2x6cmK_eNunPLcaGvapGehlgRcC7zle4VsMTmAXM9BKcFEjekQxA0JBxunDt1fPtpOJOBSPWzAwSwF7DVCrJnyL6dfMzLk70zV5zzhHnbwlUdJ4_xa_4DQ5h0UWLqxCtqfFA3E9QdJEp3TD8BVcz-fKK0ye8iWOu5yE3lmKnaoMzHI3ZoN9_-nDjyGZIQKz2qcHJWmYmEjCC3MBwJOwWUoph_yHTodqsZBHKbVmzjUT5RK1f8ZElMzLPtAc71ks36YQB9mkUptxYeLCiAdPpMKPuRNxfUu2wAMWyQE1jKxljoFnz-Q-xyy1YfS-cCqhiOFVP0JT0FMZHrJqJvNt7UULXLV4kURcuYcGKTWTcoRR2wSZllHdB_QB0k7u_C9hsUmYOZHu0RbmstKQSHKEN1Q",
+        "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "serverName": "regulations-apart-thehun-neck.trycloudflare.com",
+          "serverName": "detect-gadgets-cables-engineering.trycloudflare.com",
           "fingerprint": "chrome"
         },
         "wsSettings": {
-          "path": "ff386ea0-47ff-47e0-9b93-7910fe41d6df-vw",
-          "host": "regulations-apart-thehun-neck.trycloudflare.com"
+          "path": "39aefc86-4eeb-4abd-a54e-d1488b0d1549-vw",
+          "host": "detect-gadgets-cables-engineering.trycloudflare.com"
         },
         "finalmask": {
           "tcp": [
