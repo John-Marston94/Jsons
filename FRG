@@ -59,12 +59,12 @@
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "serverName": "detect-gadgets-cables-engineering.trycloudflare.com",
+          "serverName": "version-fabulous-proved-priorities.trycloudflare.com",
           "fingerprint": "chrome"
         },
         "wsSettings": {
           "path": "39aefc86-4eeb-4abd-a54e-d1488b0d1549-vw",
-          "host": "detect-gadgets-cables-engineering.trycloudflare.com"
+          "host": "version-fabulous-proved-priorities.trycloudflare.com"
         },
         "finalmask": {
           "tcp": [
@@ -219,12 +219,12 @@
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "serverName": "detect-gadgets-cables-engineering.trycloudflare.com",
+          "serverName": "version-fabulous-proved-priorities.trycloudflare.com",
           "fingerprint": "chrome"
         },
         "wsSettings": {
           "path": "39aefc86-4eeb-4abd-a54e-d1488b0d1549-vw",
-          "host": "detect-gadgets-cables-engineering.trycloudflare.com"
+          "host": "version-fabulous-proved-priorities.trycloudflare.com"
         },
         "finalmask": {
           "tcp": [
