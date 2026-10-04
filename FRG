@@ -158,7 +158,6 @@
       "tag": "socks"
     }
   ],
-  "remarks": "Aether",
   "log": {
     "loglevel": "warning"
   },
@@ -256,7 +255,7 @@
       "statsOutboundDownlink": true
     }
   },
-  "remarks": "1",
+  "remarks": "Aether",
   "routing": {
     "domainStrategy": "AsIs",
     "rules": [
@@ -533,7 +532,6 @@
       "tag": "socks"
     }
   ],
-  "remarks": "warp",
   "log": {
     "loglevel": "warning"
   },
@@ -631,7 +629,7 @@
       "statsOutboundDownlink": true
     }
   },
-  "remarks": "1",
+  "remarks": "Warp",
   "routing": {
     "domainStrategy": "AsIs",
     "rules": [
