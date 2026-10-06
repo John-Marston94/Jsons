@@ -57,14 +57,14 @@
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "serverName": "spokesman-idaho-settings-attorneys.trycloudflare.com",
+          "serverName": "often-sit-incorporate-wayne.trycloudflare.com",
           "fingerprint": "chrome",
           "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
           "echForceQuery": "full"
         },
         "wsSettings": {
           "path": "/vless-argo?ed=2560",
-          "host": "spokesman-idaho-settings-attorneys.trycloudflare.com"
+          "host": "often-sit-incorporate-wayne.trycloudflare.com"
         }
       },
       "mux": {
