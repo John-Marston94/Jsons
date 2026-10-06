@@ -211,10 +211,10 @@
           "allowInsecure": false,
           "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
           "fingerprint": "chrome",
-          "serverName": "project-defendant-movements-alive.trycloudflare.com"
+          "serverName": "commented-firefox-jesse-fishing.trycloudflare.com"
         },
         "wsSettings": {
-          "host": "project-defendant-movements-alive.trycloudflare.com",
+          "host": "commented-firefox-jesse-fishing.trycloudflare.com",
           "path": "/vless-argo?ed=2560"
         }
       },
@@ -585,10 +585,10 @@
           "allowInsecure": false,
           "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
           "fingerprint": "chrome",
-          "serverName": "project-defendant-movements-alive.trycloudflare.com"
+          "serverName": "commented-firefox-jesse-fishing.trycloudflare.com"
         },
         "wsSettings": {
-          "host": "project-defendant-movements-alive.trycloudflare.com",
+          "host": "commented-firefox-jesse-fishing.trycloudflare.com",
           "path": "/vless-argo?ed=2560"
         }
       },
