@@ -59,7 +59,7 @@
         "tlsSettings": {
           "serverName": "buddy-pig-closed-grade.trycloudflare.com",
           "fingerprint": "chrome",
-          "echConfigList": "cloudflare-ech.com+udp://1.1.1.1",
+          "echConfigList": "cloudflare-ech.com+https://8.8.8.8/dns-query",
           "echForceQuery": "full"
         },
         "wsSettings": {
