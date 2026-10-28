@@ -57,14 +57,14 @@
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "serverName": "buddy-pig-closed-grade.trycloudflare.com",
+          "serverName": "cgi-egg-carefully-deutsch.trycloudflare.com",
           "fingerprint": "chrome",
           "echConfigList": "cloudflare-ech.com+https://8.8.8.8/dns-query",
           "echForceQuery": "full"
         },
         "wsSettings": {
           "path": "/vless-argo?ed=2560",
-          "host": "buddy-pig-closed-grade.trycloudflare.com"
+          "host": "cgi-egg-carefully-deutsch.trycloudflare.com"
         }
       },
       "mux": {
